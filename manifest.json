@@ -2,10 +2,10 @@
   "manifest_version": 3,
   "name": "ChatGPT Session Exporter",
   "version": "0.1.0",
-  "description": "Copy the current AI chat session from ChatGPT as JSON or Markdown.",
+  "description": "Copy the current ChatGPT session as JSON or Markdown.",
   "permissions": ["activeTab", "scripting", "clipboardWrite"],
   "action": {
-    "default_title": "Export chat session",
+    "default_title": "Copy chat session",
     "default_popup": "popup.html",
     "default_icon": {
       "16": "icons/icon-16.png",
