@@ -37,6 +37,8 @@ If you change the extension files, reload the extension from `chrome://extension
 4. Click **Copy current chat**.
 5. Paste the result wherever you want to save or process it.
 
+**NOTE:** Make sure to scroll up, because it uses the DOM to get the session message history from the HTML, which sometimes can get hidden/removed if the session is too long.
+
 ## Output
 
 JSON exports use this shape:
